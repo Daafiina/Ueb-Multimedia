@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*--MENU--*/
+.navbar{
+    padding:22px 0px;
+    background-color: rgb(61, 99, 132) ! important;
+    border-bottom:none ! important;
+}
+
+
+.navbar ul li a{
+    color:white ! important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover{
+    color:rgb(90, 90, 239) !important;
+    transition: all 0.5s ease-in;
+}
+
+.navbar-toggle{
+    border:1px solid white !important;
+}
+
+.navbar-toggle:hover{
+    background-color: rgb(90, 90, 239) !important;
+    transition: all 0.5s ease-in;
+}
+
+.navbar-inverse .navbar-collapse{
+    border-color: transparent !important;
+}
+
+
+.location{
+    border:1px solid white;
+    border-radius: 55px;
+
+}
