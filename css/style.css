@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -236,7 +240,103 @@
 
 /*--Services-end--*/
 
+/* work styles */
+.row.no-gutters [class*=col-]{
+    padding-left: 0;
+    padding-right: 0;
+}
 
+.img-wrapper{
+    overflow: hidden;
+}
+.img-wrapper img{
+    transition: transform 0.5s ease;
+    width: 100%;
+}
 
+.img-wrapper img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+/* work styles end */
 
+/*Team styles*/
+.team-member{
+    margin-top: 50px;
+}
+.team-member{
+    margin: 0 15px;   
+}
 
+.team-member-info{
+    padding: 10px 0 30px 0;
+}
+
+h4.team-member-name{
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+
+h4.team-member-desgination{
+    color: turquoise;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+.social-list{
+    padding-left: 0;
+}
+.social-list li{
+    list-style: none;
+    display: inline-block;
+}
+.social-list i{
+    font-size: 17px;
+}
+.icon-gray{
+    color: rgb(113, 113, 113) ;
+}
+/*Team styles ends*/
+
+/*Testimonials style*/
+.carousel-inner img{
+    width: 150px;
+    height: 80px;
+    border-radius: 100%;
+    border: 3px solid white;
+    padding: 5px;
+}
+.testimonials{
+    background-image: url(../images/rev3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 155px;
+    
+}
+
+.testimonials .carousel-indicators{
+    bottom: -60px;
+}
+
+.border-bottom{
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.carousel-inner p{
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+/*Testimonials end*/
