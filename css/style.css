@@ -340,3 +340,98 @@ h4.team-member-desgination{
     margin-top: 30px;
 }
 /*Testimonials end*/
+
+
+/*---FAQ--*/
+.questions{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#faq .panel{
+    box-shadow:none;
+    border-radius:10px;
+    border: none;
+    margin-bottom: 15px;
+    margin-top:25px;
+}
+
+#faq .panel-heading{
+    padding:0;
+    border:none;
+    border-radius:10px;
+}
+
+#faq .panel-title a{
+    display:block;
+    padding:25px 35px;
+    font-size:20px;
+    font-weight: 600;
+    color:white;
+    background:rgba(174,180,151,255);
+    background-image: linear-gradient(rgba(174,180,151,255), rgb(191, 191, 172),rgb(241, 241, 230));
+    border: none;
+    position: relative;
+    transition: all 0.4s ease 0s;
+}
+
+#faq .panel-title a:after,
+#faq .panel-title a.collapsed:after{
+    content:"\f068";
+    font-family: fontawesome;
+    height: 40px;
+    width: 40px;
+    line-height: 32px;
+    border-radius:50px;
+    background-color: rgba(174,180,151,255);
+    text-align: center;
+    font-size:15px;
+    color:white;
+    border:5px solid white;
+    position:absolute;
+    top:10px;
+    left:-20px;
+    transition: all 0.4s ease 0s;
+}
+
+#faq .panel-title a.collapsed:after{
+    content:"\f067";
+}
+
+#faq .panel-title a:hover:after,
+#faq .panel-title a.collapsed:hover:after
+{
+    transform: rotate(360deg);
+}
+
+.col-md-12 h2{
+    color:rgba(174,180,151,255);
+}
+
+#faq .panel-body{
+    padding:15px 25px;
+    background-color: rgb(244, 247, 249);
+    font-size: 15px;
+    color:rgba(174,180,151,255);
+    line-height: 25px;
+    border-top: none;
+    position:relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.panel-heading a{
+    text-decoration: none !important;
+    font-size:15px !important;
+}
+
+.videofaq video{
+    border-radius:10px;
+    margin-top: 10px; 
+    width:250px;
+}
+
+
+
+
+
+/*---FAQ-end--*/
