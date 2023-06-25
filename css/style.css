@@ -496,8 +496,8 @@ h4.team-member-desgination{
     float: left;
     width: 100%;
     margin-top: 90px;
-    margin-bottom: 30px;
-    background-color: rgb(90, 97, 97);
+    margin-bottom: -30px;
+    background-color: rgb(119, 188, 154);
     padding-top: 35px;
     padding-bottom: 35px;   
 }
@@ -507,7 +507,7 @@ h4.team-member-desgination{
     font-size: 26px;
     border: 1px solid white;
     width: 50px;
-    border-radius: 50px;
+    border-radius: 50%;
     line-height: 50px ;
 }
 
@@ -515,7 +515,54 @@ h4.team-member-desgination{
     color: white;
     margin-top: 15px;
 }
-
-
 /*Contact Area Ends*/
 
+/*Map*/
+.maps{
+    margin-top: 20px;
+}
+/*Map Ends*/
+
+/*Footer*/
+.footer{
+    background: url(../images/CSS-footer-bg.jpg);
+    background-size: cover;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover;
+    padding-top: 145px;
+    padding-bottom: 120px;
+    background-attachment: fixed;
+    color: white;
+}
+
+.social-icon a{
+    margin: 0 16px 20px 16px;
+    display: inline-block;
+}
+
+.footer .fa{
+    font-size: 30px;
+    color: aqua;
+    width: 80px;
+    height: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: white;
+    line-height: 2;
+    border: 10px solid #24495e;
+    text-align: center;
+    transition: all 0.7s ease-in;
+}
+
+.social-icon a:hover .fa{
+    border: 10px solid white;
+    transform: rotate(360deg);
+}
+
+.bordernow{
+    width: 40px;
+    border-bottom: 2px solid white;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+/*Footer ends*/
