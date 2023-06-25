@@ -16,14 +16,14 @@ body{
 
 
 .navbar ul li a{
-    color:white ! important;
+    color:rgb(255, 255, 255) ! important;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: bold;
 }
 
-.navbar ul li a:hover{
-    color:#d6c3a2!important;
+.navbar ul li a:hover .navbar ul li a:focus{
+    color:#a3e3e1!important;
     transition: all 0.5s ease-in;
 }
 
