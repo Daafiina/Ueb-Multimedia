@@ -7,6 +7,8 @@
     <title>Responsive website</title>
     <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/icon.png"> 
+
+
     <!--Magnific popup css files-->
     <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
 
@@ -17,6 +19,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!--------------Animate Css File--------------------------->
+    <link href="css/animate.css" type="text/css" rel="stylesheet">
+    
 
 <!-- jQuery library -->
 
@@ -37,11 +43,11 @@
                 <span class="icon-bar"></span>
             </button>
             
-            <a href="" class="navbar-brand"><img src="images/icon.png" style="width: 35px;"/></a>
+            <a href="" class="navbar-brand animated bounceInDown"><img src="images/icon.png" style="width: 35px;"/></a>
         </div>
         
         <div class="collapse navbar-collapse" id="nav">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right animated bounceInDown">
             <li><a href="#slider" class="smooth-scroll">Home</li></a>
             <li><a href="#testimonial" class="smooth-scroll">About us</li></a>
             <li><a href="#team" class="smooth-scroll">Team</li></a>
@@ -91,7 +97,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="section-title text-center">
+                    <div class="section-title text-center wow zoomIn" data-wow-duration=".5s" data-wow-delay=".5s">
                     <h2><b></b>SERVICES<i class="fa fa-gears"></i></b></h2>
                     <p>
                         Lorem ipsum dolor  Lorem ipsum dolor sit amet.sit amet consectetur <br>
@@ -197,7 +203,7 @@
 
       <!--Works Markups Start-->
       <br><br><br><br><br>
-      <section class="work" id="works">
+      <section class="work wow bounceInUp" id="works" data-wow-duration=".5s" data-wow-delay=".5s">
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-md-3 col-md-3 col-xs-3">
@@ -267,7 +273,7 @@
       <!--Team Markcup-->
       <br><br><br>
       <section class="teams" id="team">
-        <div class="container text-center">
+        <div class="container text-center wow zoomIn" data-wow-duration="3s" data-wow-delay="3s" >
             <h2><b>MEMBERS</b></h2>
             <p>
                 You can ask the question regarding the issues we will <br>
@@ -275,7 +281,7 @@
             </p>
         </div><br>
 
-        <div class="container">
+        <div class="container  wow bounceInLeft" data-wow-duration="1.2s" data-wow-delay="1.2s">
             <div class="row">
                 <div class="col-md-12">
                     <div id="team-members" class="owl-carousel owl-theme">
@@ -431,7 +437,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container wow bounceInLeft" data-wow-duration=".6s" data-wow-delay=".6s">
         <div class="row">
             <div class="col-md-7">
                 <div class="panel-group" id="faq">
@@ -639,13 +645,13 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-6 col-md-offset-3 text-center">
-            <div class="section-heading">
+            <div class="section-heading wow fadeInUp" data-wow-duration=".3s" data-wow-delay=".3s">
                 <h2 class="section-title"><b>LEAVE A MESSAGE</b></h2>
                 <div class="border-bottom"></div>
             </div>
         </div>
     </div><br><br><br><br>
-    <div class="row">
+    <div class="row wow fadeInUp">
         <div class="col-md-8 col-md-offset-2">
             <form id="contactform" class="contact-form">
                 <div class="row">
@@ -677,7 +683,7 @@
     <div class="row">
         <div class="contact-infos">
             <div class="col-md-4 text-center">
-                <div class="contact-item">
+                <div class="contact-item wow fadeInLeft" data-wow-duration=".3s" data-wow-delay=".3s">
                     <span class="contact-icon"><i class="fa fa-map-marker"></i></span>
                     <p class="contact-detail ">
                         233 Post Strees, Lorem ipsum dolor sit amet <br>
@@ -686,7 +692,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".6s">
                 <div class="contact-item">
                     <span class="contact-icon"><i class="fa fa-envelope"></i></span>
                     <p class="contact-detail ">
@@ -696,7 +702,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 text-center wow fadeInLeft" data-wow-duration=".3s" data-wow-delay=".9s">
                 <div class="contact-item">
                     <span class="contact-icon"><i class="fa fa-phone"></i></span>
                     <p class="contact-detail ">
@@ -712,7 +718,7 @@
 <!-- Form Markup Ends-->
 
 <!--Google Maps-->
-<section class="maps" id="map">
+<section class="maps wow fadeInUp" id="map">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3
     !1d46940.16392797593!2d21.117527556113366!3d42.66643583203861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549ee605110927%3A0x9365bfdf385eb95a!2sPristina!5e0!3m2!1sen!2srs!4v1687708168797!5m2!1sen!2srs" 
     width="100%" height="450" style="border:0;" allowfullscreen="" 
@@ -727,15 +733,15 @@
         <div class="row">
             <div class="col-sm-12 text-center">
                 <div class="social-icon">
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-pinterest"></i></a>
-                    <a href=""><i class="fa fa-rss"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                    <a href=""><i class="fa fa-vimeo-square"></i></a>
-                    <a href=""><i class="fa fa-youtube"></i></a>
-                    <a href=""><i class="fa fa-dribbble"></i></a>
+                    <a href=""><i class="fa fa-facebook wow fadeInLeft" data-wow-duration=".3s" data-wow-delay=".3s"></i></a>
+                    <a href=""><i class="fa fa-twitter wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".6s"></i></a>
+                    <a href=""><i class="fa fa-google-plus wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".9s"></i></a>
+                    <a href=""><i class="fa fa-pinterest wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1.2s"></i></a>
+                    <a href=""><i class="fa fa-rss wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s"></i></a>
+                    <a href=""><i class="fa fa-linkedin wow fadeInLeft" data-wow-duration="1.8s" data-wow-delay="1.8s"></i></a>
+                    <a href=""><i class="fa fa-vimeo-square wow fadeInLeft" data-wow-duration="2.1s" data-wow-delay="2.1s"></i></a>
+                    <a href=""><i class="fa fa-youtube wow fadeInLeft" data-wow-duration="2.3s" data-wow-delay="2.3s"></i></a>
+                    <a href=""><i class="fa fa-dribbble wow fadeInLeft" data-wow-duration="2.6s" data-wow-delay="2.6s"></i></a>
                 </div><br>
 
                 <div class="copyright">
@@ -764,6 +770,8 @@
     <script src="js/smoothscroll.js" type="text/javascript"></script>
     <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
 
+    <script src="js/wow.min.js" type="text/javascript"></script>
+    
     <script src="js/main.js" type="text/javascript"></script>
     
 </body>

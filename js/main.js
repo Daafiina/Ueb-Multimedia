@@ -55,4 +55,6 @@ $(document).ready(function(){
           scrollTop: $(section).offset().top - -2
         }, 1250, "easeInOutExpo");
       });
+
+      new WOW().init();
 });
