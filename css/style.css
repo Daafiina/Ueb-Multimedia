@@ -462,6 +462,114 @@ h4.team-member-desgination{
 /* ---Blog part--*/
 .new-img img{
     width: 250px;
+    margin-left:50px;
+}
+
+.latest-new-area{
+    margin-top:40px;
+}
+
+.latest-news-wrap{
+    box-shadow:0px 3px 10px rgba(0,0,0,.1);
+}
+
+.new-img:before{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background: #0000;
+    content:"";
+    opacity:0 ;
+    transform: scale(.8);
+    transition: all 0.5s;
+}
+
+.latest-new-area:hover .new-img:before{
+    opacity:.5;
+    transform: scale(.1);
+
+}
+
+.date{
+    background: rgba(174,180,151,255);
+    height: 60px;
+    width:70px;
+    padding:10px;
+    left:0;
+    position: absolute;
+    text-align:center;
+    top:0;
+    box-shadow:#24495e;
+}
+
+
+.date span{
+    display: block;
+    color:white;
+    font-size:12px;
+    font-weight: 900px;
+}
+
+.new-content{
+    padding:20px;
+    margin-left:4px;
+
+}
+
+.new-content .i{
+    font-size:16px;
+    display: inline-block;
+}
+
+.new-content .fa{
+    padding: 5px;
+    cursor: pointer;
+    margin-left:19px;
+}
+
+.new-content .fa-facebook{
+    color:rgb(67, 67, 220);
+}
+
+.new-content .fa-twitter{
+    color:rgb(70, 148, 236);
+}
+
+.new-content .fa-linkedin{
+    color:rgb(86, 131, 182);
+}
+
+.new-content .fa-youtube{
+    color:rgb(200, 68, 56);
+}
+
+.new-content .fa-whatsapp{
+    color:rgb(58, 245, 64);
+}
+
+.new-content p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+.new-content a{
+    font-size:12px;
+    background-color:rgba(174,180,151,255);
+    color:white;
+    padding:15px;
+    transition: all 0.5s ease-in;
+}
+
+.new-content a:hover{
+    font-size:14px;
+    border:1px solid #34125e;
+    color:#34125e;
+    border-top-right-radius: 20px;
+    background-color: transparent;
+    text-decoration: none;
+    margin-right: 0;
 }
 
 
