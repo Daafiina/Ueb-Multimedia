@@ -577,6 +577,30 @@ h4.team-member-desgination{
 
 /* ---Blog end--*/
 
+/*--pixi js--*/
+#pixi-container {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    color:white;
+
+
+
+  }
+
+.content-box{
+    position:absolute;
+    margin-top:200px;
+    margin-left:60px
+}
+
+.stat i {
+    font-size:85px;
+}
+
+
+/*--pixi js-end--*/
+
 /*Contact Area*/
 
 .contact-area{
