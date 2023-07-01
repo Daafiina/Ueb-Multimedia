@@ -133,6 +133,33 @@ function setup() {
       return newval;
   };
 
+//Delay for Home page
+
+TweenMax.from("#delay1", 2, {
+  delay: 0.3,
+  y: 20,
+  opacity: 0,
+  ease: Expo.easeInOut
+});
+
+TweenMax.from("#delay2", 2, {
+  delay: 0.6,
+  y: 20,
+  opacity: 0,
+  ease: Expo.easeInOut
+});
+
+TweenMax.from("#delay3", 2, {
+  delay: 0.9,
+  y: 20,
+  opacity: 0,
+  ease: Expo.easeInOut
+});
+
+
+
+
+
 
 
 
