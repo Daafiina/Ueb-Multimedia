@@ -12,6 +12,11 @@ $(document).ready(function(){
         loop:true
       });
       */
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+    
 
           
 
@@ -127,5 +132,8 @@ function setup() {
       var newval = (n - start1) / (stop1 - start1) * (stop2 - start2) + start2;
       return newval;
   };
+
+
+
 
  

@@ -598,6 +598,17 @@ h4.team-member-desgination{
     font-size:85px;
 }
 
+.stat p {
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.stat h2{
+    font-weight: bolder;
+    color: #99c4dc;
+
+}
+
 
 /*--pixi js-end--*/
 
