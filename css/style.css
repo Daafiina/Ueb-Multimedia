@@ -8,6 +8,10 @@ body{
 }
 
 /*--MENU--*/
+#icon{
+    margin-left: 20px;
+    margin-top: 20px;
+}
 .navbar{
     padding:22px 0px;
     /* background-color: rgb(61, 99, 132) ! important; */

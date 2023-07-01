@@ -158,6 +158,18 @@ TweenMax.from("#delay3", 2, {
 
 
 
+//Sounds
+
+var mySong=document.getElementById("mySong");
+var icon=document.getElementById("play-song");
+
+icon.onclick=function(){
+  mySong.onplay();
+}
+
+
+
+
 
 
 
